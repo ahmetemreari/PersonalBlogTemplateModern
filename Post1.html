@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yapay Zeka ve Gelecek | Tech Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">AHMET EMRE ARI</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="Hakkimda.html">Hakkımda</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article class="post-container">
+        <header class="post-header">
+            <div class="post-meta">
+                <span class="meta-item">
+                    <i class="far fa-calendar"></i>
+                    7 Şubat 2024
+                </span>
+                <span class="meta-item">
+                    <i class="far fa-user"></i>
+                    Ahmet Emre ARI
+                </span>
+                <span class="meta-item">
+                    <i class="far fa-folder"></i>
+                    Yapay Zeka
+                </span>
+            </div>
+            <h1 class="post-title">Yapay Zeka ve Geleceğin Teknolojileri</h1>
+            <p class="post-subtitle">Yapay zeka sistemlerinin gelişimi ve insanlığın geleceğine etkileri üzerine kapsamlı bir analiz</p>
+        </header>
+
+        <div class="featured-image">
+            <img src="https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Yapay Zeka Konsept">
+        </div>
+
+        <div class="post-content">
+            <p class="lead">Son yıllarda yapay zeka teknolojilerinde yaşanan gelişmeler, insanlığın geleceğini şekillendirmeye devam ediyor. Bu yazıda, yapay zekanın mevcut durumunu ve gelecekteki potansiyel etkilerini detaylı olarak inceleyeceğiz.</p>
+
+            <h2>Yapay Zekanın Temelleri</h2>
+            <p>Yapay zeka sistemleri, insan beyninin çalışma prensiplerinden ilham alarak geliştirilmiştir. Derin öğrenme algoritmaları ve sinir ağları, bu sistemlerin temelini oluşturuyor.</p>
+
+            <div class="info-box">
+                <h3>Temel Bileşenler</h3>
+                <ul class="info-list">
+                    <li>Makine Öğrenmesi Algoritmaları</li>
+                    <li>Nöral Ağ Mimarileri</li>
+                    <li>Doğal Dil İşleme</li>
+                    <li>Bilgisayarlı Görü Sistemleri</li>
+                </ul>
+            </div>
+
+            <h2>Uygulama Alanları</h2>
+            <p>Yapay zeka teknolojileri günümüzde birçok alanda kullanılıyor. Sağlıktan finansa, eğitimden sanayiye kadar geniş bir yelpazede uygulamalar görüyoruz.</p>
+
+            <div class="code-block">
+<pre>
+// Basit bir yapay sinir ağı örneği
+class NeuralNetwork {
+    constructor(inputNodes, hiddenNodes, outputNodes) {
+        this.inputNodes = inputNodes;
+        this.hiddenNodes = hiddenNodes;
+        this.outputNodes = outputNodes;
+        
+        this.learningRate = 0.3;
+        this.activation = x => 1 / (1 + Math.exp(-x));
+    }
+
+    train(inputArray, targetArray) {
+        // Eğitim işlemleri
+        const outputs = this.predict(inputArray);
+        const targets = Matrix.fromArray(targetArray);
+        
+        // Geri yayılım algoritması
+        const outputErrors = Matrix.subtract(targets, outputs);
+        this.backpropagate(outputErrors);
+    }
+}
+</pre>
+            </div>
+
+            <div class="quote-box">
+                <p>"Yapay zeka, insanlık tarihinin en önemli teknolojik devrimlerinden biri olacak ve toplumları temelden değiştirecek."</p>
+                <cite>- Dr. Alan Turing</cite>
+            </div>
+
+            <h2>Etik ve Gelecek</h2>
+            <p>Yapay zeka teknolojilerinin yaygınlaşması, beraberinde önemli etik soruları da gündeme getiriyor. Veri gizliliği, algoritma yanlılığı ve otomasyon kaynaklı işsizlik gibi konular, dikkatle ele alınması gereken başlıklar arasında.</p>
+
+            <div class="info-box">
+                <h3>Öne Çıkan Etik Konular</h3>
+                <ul class="info-list">
+                    <li>Veri Gizliliği ve Güvenlik</li>
+                    <li>Algoritma Şeffaflığı</li>
+                    <li>İş Gücü Dönüşümü</li>
+                    <li>Yapay Zeka Güvenliği</li>
+                </ul>
+            </div>
+
+            <h2>Sonuç ve Öneriler</h2>
+            <p>Yapay zeka teknolojileri, doğru ve etik bir şekilde kullanıldığında insanlığa büyük faydalar sağlayabilir. Ancak bu süreçte, teknolojinin kontrolünü elimizde tutmak ve olası riskleri minimize etmek için proaktif adımlar atmamız gerekiyor.</p>
+        </div>
+
+        <footer class="post-footer">
+            <div class="post-tags">
+                <span class="tag">#YapayZeka</span>
+                <span class="tag">#YapayZeka</span>
+                <span class="tag">#DerinÖğrenme</span>
+                <span class="tag">#Teknoloji</span>
+                <span class="tag">#Gelecek</span>
+                <span class="tag">#TeknolojiTrendleri</span>
+            </div>
+
+            <div class="share-section">
+                <span class="share-label">Bu yazıyı paylaş:</span>
+                <div class="share-buttons">
+                    <a href="https://www.linkedin.com/in/aemreari/" target="_blank" class="share-button"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ahmetemreari" target="_blank" class="share-button"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank" class="share-button"><i class="fab fa-facebook"></i></a>
+                </div>
+            </div>
+        </footer>
+    </article>
+
+    <script>
+        // Paralaks efekti
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const gradientBg = document.querySelector('.gradient-bg');
+            gradientBg.style.transform = `translateY(${scrolled * 0.3}px)`;
+        });
+
+        // Post title 3D efekti
+        document.addEventListener('mousemove', (e) => {
+            const title = document.querySelector('.post-title');
+            const xAxis = (window.innerWidth / 2 - e.pageX) / 25;
+            const yAxis = (window.innerHeight / 2 - e.pageY) / 25;
+            title.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+        });
+    </script>
+</body>
+</html>

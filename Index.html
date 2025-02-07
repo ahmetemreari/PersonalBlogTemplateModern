@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AHMET EMRE ARI Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="gradient-bg"></div>
+    
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">AHMET EMRE ARI</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Ana Sayfa</a></li>
+                <li><a href="Hakkimda.html">Hakkımda</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Geleceğin Blog'u</h1>
+            <p>Teknoloji, yazılım ve dijital dünya hakkında en güncel içerikler</p>
+        </div>
+    </section>
+
+    <section class="blog-grid">
+        <article class="blog-card">
+            <img src="https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog Post 1" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Yapay Zeka ve Gelecek</h2>
+                <p class="card-excerpt">Yapay zeka teknolojilerinin geleceğimizi nasıl şekillendireceğine dair derinlemesine bir analiz...</p>
+                <a href="Post1.html" class="card-link">
+                    Devamını Oku <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <img src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog Post 2" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Web 3.0 Teknolojileri</h2>
+                <p class="card-excerpt">Merkeziyetsiz internet ve blockchain teknolojilerinin web dünyasına getirdiği yenilikler...</p>
+                <a href="Post2.html" class="card-link">
+                    Devamını Oku <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </article>
+
+        <article class="blog-card">
+            <img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Blog Post 3" class="card-image">
+            <div class="card-content">
+                <h2 class="card-title">Kuantum Bilgisayarlar</h2>
+                <p class="card-excerpt">Kuantum bilgisayarların çalışma prensipleri ve gelecekteki potansiyel uygulamaları...</p>
+                <a href="Post3.html" class="card-link">
+                    Devamını Oku <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </article>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AHMET EMRE ARI BLOG</h3>
+                <p>Geleceğin teknolojileri hakkında en güncel içerikler</p>
+            </div>
+            <div class="footer-section">
+                <h3>Bağlantılar</h3>
+                <ul>
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="Hakkimda.html">Hakkında</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Sosyal Medya</h3>
+                <div class="social-links">
+                    
+                    <a href="https://www.linkedin.com/in/aemreari/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/ahmetemreari"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Paralaks efekti
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const gradientBg = document.querySelector('.gradient-bg');
+            gradientBg.style.transform = `translateY(${scrolled * 0.3}px)`;
+        });
+    </script>
+</body>
+</html>
